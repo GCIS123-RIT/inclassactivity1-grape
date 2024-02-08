@@ -69,35 +69,31 @@ def circle(turta, circle_color,border_color):
     turta.penup()
 
     
-def pattern(turta, hexa_color, circle_color, sqaure_color, border_color):
+def pattern(turta, hexa_color, circle_color, square_color, border_color):
     setPos(turta, -250, 100 + 100)
     hexagon(turta, hexa_color, border_color)
     setPos(turta, -100,0 + 100)
     circle(turta, circle_color, border_color)
     setPos(turta, 0, 100+ 100)
-    square(turta, sqaure_color, border_color)
+    square(turta, square_color, border_color)
     
     setPos(turta, -250+100, -50+ 100)
     hexagon(turta, hexa_color, border_color)
     setPos(turta, -100+100, - 150 + 100)
     circle(turta, circle_color, border_color)
     setPos(turta, 0+100, -50+ 100)
-    square(turta, sqaure_color, border_color)
+    square(turta, square_color, border_color)
     
     setPos(turta, -250 + 200, -200+ 100)
     hexagon(turta, hexa_color, border_color)
     setPos(turta, -100+ 200, - 300 + 100)
     circle(turta, circle_color, border_color)
     setPos(turta, 0+ 200, -200+ 100)
-    square(turta, sqaure_color, border_color)
-    
-    
-    
+    square(turta, square_color, border_color)
   
 def main():
     turtle.bgcolor("sky blue")
-    pattern(turtle, "blue", "green","orange","red")
-    
+    pattern(turtle, "blue", "brown", "orange", "red")
     
     input()
     

@@ -9,7 +9,7 @@ t = turtle
 
 def setPos(turta, x, y):
     turta.penup()
-    turta.goto(turta, x, y) #i changed here 
+    turta.goto(turta, x, y) 
     turta.pendown()
 
 def hexagon(turta, hexa_color, border_color):
@@ -17,10 +17,12 @@ def hexagon(turta, hexa_color, border_color):
     the user.
     hexa_color : This is the color of the hexagon  
     border_color : This is the color of hexagon border"""
-    turta.pendown()
+    turta.pendown()             
     turta.pencolor(border_color)
-    turta.fillcolor(hexa_color)
-    turta.begin_fill() 
+    turta.fillcolor(hexa_color) 
+    turta.begin_fill()      #begins filling color
+    turta.forward(50)       #moves forward
+    turta.right(60)         #moves right
     turta.forward(50)
     turta.right(60)
     turta.forward(50)
@@ -30,10 +32,8 @@ def hexagon(turta, hexa_color, border_color):
     turta.forward(50)
     turta.right(60)
     turta.forward(50)
-    turta.right(60)
-    turta.forward(50)
-    turta.end_fill()
-    turta.penup()
+    turta.end_fill()       #stops filling color
+    turta.penup()               
 
 def square(turta, square_color,border_color):
     turta.pendown()

@@ -36,6 +36,10 @@ def hexagon(turta, hexa_color, border_color):
     turta.penup()               
 
 def square(turta, square_color,border_color):
+    """This function helps to draw square with color and border color from 
+    the user.
+    square_color : This is the color of the square  
+    border_color : This is the color of square border"""
     turta.pendown()
     turta.pencolor(border_color)
     turta.fillcolor(square_color)
@@ -51,6 +55,10 @@ def square(turta, square_color,border_color):
     turta.penup()
 
 def circle(turta, circle_color,border_color):
+    """This function helps to draw circle with color and border color from 
+    the user.
+    circle_color : This is the color of the circle  
+    border_color : This is the color of circle border"""
     turta.pendown()
     turta.pencolor(border_color)
     turta.fillcolor(circle_color)

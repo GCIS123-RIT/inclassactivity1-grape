@@ -5,8 +5,6 @@
 
 import turtle
 
-t = turtle
-
 def setPos(turta, x, y):
     '''This function sets the position of the turtle to the coordinates x and y without leaving any trace.'''
     turta.penup()

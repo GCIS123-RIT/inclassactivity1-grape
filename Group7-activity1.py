@@ -1,6 +1,8 @@
-###
-###
-###
+# Ali Alblooshi
+# Ameen Ahmed
+# Pranav Anil
+# Mohammed Daaboul
+
 import turtle
 
 t = turtle

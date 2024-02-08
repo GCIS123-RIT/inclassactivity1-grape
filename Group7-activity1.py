@@ -29,5 +29,5 @@ def hexagon(turta, hexa_color, border_color):
     turta.penup()
 
 
-#test
+
     

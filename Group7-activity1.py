@@ -26,5 +26,5 @@ def hexagon(turta, hexa_color, border_color):
     turta.right(60)
     turta.forward(50)
     turta.end_fill()
+    turta.penup()
     
-hexagon(t, "red", "blue")

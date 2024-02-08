@@ -67,7 +67,6 @@ def circle(turta, circle_color,border_color):
     turta.circle(50)
     turta.end_fill()
     turta.penup()
-
     
 def pattern(turta, hexa_color, circle_color, square_color, border_color):
     setPos(turta, -250, 100 + 100)
@@ -96,6 +95,5 @@ def main():
     pattern(turtle, "blue", "brown", "orange", "red")
     
     input()
-    
     
 main()

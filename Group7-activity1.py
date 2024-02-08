@@ -97,7 +97,11 @@ def pattern(turta, hexa_color, circle_color, square_color, border_color):
   
 def main():
     turtle.bgcolor("sky blue")
-    pattern(turtle, "blue", "brown", "orange", "red")
+    hexa_color = input("Enter the color of hexagon: ")
+    circle_color = input("Enter the color of circle: ")
+    square_color = input("Enter the color of square: ")
+    border_color = input("Enter the color of shape borders: ")
+    pattern(turtle, hexa_color, circle_color, square_color, border_color)
     
     input()
     

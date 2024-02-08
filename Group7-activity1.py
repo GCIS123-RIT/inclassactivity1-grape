@@ -33,7 +33,7 @@ def hexagon(turta, hexa_color, border_color):
     turta.forward(50)
     turta.right(60)
     turta.forward(50)
-    turta.end_fill()       #stops filling color
+    turta.end_fill()        #stops filling color
     turta.penup()               
 
 def square(turta, square_color,border_color):
@@ -64,11 +64,16 @@ def circle(turta, circle_color,border_color):
     turta.pencolor(border_color)
     turta.fillcolor(circle_color)
     turta.begin_fill()
-    turta.circle(50)
+    turta.circle(50)      # takes radius of circle to draw
     turta.end_fill()
     turta.penup()
     
 def pattern(turta, hexa_color, circle_color, square_color, border_color):
+    '''This function helps to draw all the shapes in a pattern that we desire.
+    hexa_color : This is the color of the hexagon
+    circle_color : This is the color of the circle
+    square_color : This is the color of the square  
+    border_color : This is the color of all the shape's borders'''
     setPos(turta, -250, 100 + 100)
     hexagon(turta, hexa_color, border_color)
     setPos(turta, -100,0 + 100)

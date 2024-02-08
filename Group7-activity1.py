@@ -8,7 +8,10 @@ def setPos(turta, x, y):
     turta.pendown()
 
 def hexagon(turta, hexa_color, border_color):
-    
+    """This function helpsto draw hexagon with color and border color from 
+    the user.
+    hexa_color : This is the color of the hexagon  
+    border_color : This is the color of hexagon border"""
     turta.pendown()
     turta.pencolor(border_color)
     turta.fillcolor(hexa_color)

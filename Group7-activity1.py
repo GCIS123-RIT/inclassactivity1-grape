@@ -7,7 +7,7 @@ t = turtle
 
 def setPos(turta, x, y):
     turta.penup()
-    turta.goto(turta, x, y)
+    turta.goto(turta, x, y) #i changed here 
     turta.pendown()
 
 def hexagon(turta, hexa_color, border_color):

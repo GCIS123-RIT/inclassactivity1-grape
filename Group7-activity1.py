@@ -9,8 +9,9 @@ t = turtle
 
 def setPos(turta, x, y):
     turta.penup()
-    turta.goto(turta, x, y) 
+    turta.goto(x, y) 
     turta.pendown()
+    turta.setheading(0)
 
 def hexagon(turta, hexa_color, border_color):
     """This function helps to draw hexagon with color and border color from 
@@ -68,3 +69,37 @@ def circle(turta, circle_color,border_color):
     turta.penup()
 
     
+def pattern(turta, hexa_color, circle_color, sqaure_color, border_color):
+    setPos(turta, -250, 100 + 100)
+    hexagon(turta, hexa_color, border_color)
+    setPos(turta, -100,0 + 100)
+    circle(turta, circle_color, border_color)
+    setPos(turta, 0, 100+ 100)
+    square(turta, sqaure_color, border_color)
+    
+    setPos(turta, -250+100, -50+ 100)
+    hexagon(turta, hexa_color, border_color)
+    setPos(turta, -100+100, - 150 + 100)
+    circle(turta, circle_color, border_color)
+    setPos(turta, 0+100, -50+ 100)
+    square(turta, sqaure_color, border_color)
+    
+    setPos(turta, -250 + 200, -200+ 100)
+    hexagon(turta, hexa_color, border_color)
+    setPos(turta, -100+ 200, - 300 + 100)
+    circle(turta, circle_color, border_color)
+    setPos(turta, 0+ 200, -200+ 100)
+    square(turta, sqaure_color, border_color)
+    
+    
+    
+  
+def main():
+    turtle.bgcolor("sky blue")
+    pattern(turtle, "blue", "green","orange","red")
+    
+    
+    input()
+    
+    
+main()

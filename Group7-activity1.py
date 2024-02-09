@@ -1,7 +1,9 @@
-# Ali Alblooshi
-# Ameen Ahmed
-# Pranav Anil
-# Mohammed Daaboul
+'''
+Ali Alblooshi-setPos, comments
+Ameen Ahmed-Square and main()
+Pranav Anil-Hexagon and Pattern
+Mohammed Daaboul-Circle
+'''
 
 import turtle
 
